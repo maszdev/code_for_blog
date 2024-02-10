@@ -1,2 +1,4 @@
-# code_for_blog
-Code for Blog articles 
+# Code for Blog
+Code and data for Blog articles.
+
+

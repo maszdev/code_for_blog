@@ -4,6 +4,15 @@ library (ggplot2)
 # Read results for Berlin Marathon. ~ 28500 man 
 resultsM <- readRDS("results_Berlin_M.rds")
 
+head(resultsM)
+# Country     time category
+# 1     KEN 121.6500      M30
+# 2     KEN 126.3833       MH
+# 3     KEN 126.8000      M35
+# 4     JPN 128.2667       MH
+# 5     ERI 128.7667      M35
+# 6     JPN 129.3000      M30
+
 
 ggplot(data=resultsM, aes(x=time)) +
   geom_histogram(breaks=seq(120,455, by=1),
